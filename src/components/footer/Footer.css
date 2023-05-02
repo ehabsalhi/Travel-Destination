@@ -1,0 +1,22 @@
+footer{
+     background-color: #053c47;
+     color: white;
+     margin-top: 30px;
+     height: 90px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}.links{
+     display: flex;
+     justify-content: space-between;
+     width: 300px;
+}
+
+.links a{
+     color: white;
+     text-decoration: none;
+     font-size: 20px;
+
+}
+
