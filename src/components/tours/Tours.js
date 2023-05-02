@@ -1,13 +1,13 @@
-export default function Tour (props){
+import TourDetails from "../TourDetails/TourDetails"
+import Tour from "./tour/tour"
+import './Tours.css'
+
+export default function Tours (props){
      return (
-          <main> {
+          <main className="main"> {
                props.data.map(item =>
-                         <div key = {item.name} className = "card">
-                              <p>{item.name}</p>
-                              <img src = {item.image} alt = {item.name}></img>
-                              <hr/>
-                         </div>
-               )     
-          } </main>
+                    <Tour data = {item} key = {item.id} id= {item.id} /> 
+                    )} 
+          </main>
      )
 }

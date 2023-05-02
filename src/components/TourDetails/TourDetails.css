@@ -1,0 +1,51 @@
+.seeMore{
+     display: none;
+
+}
+
+.active{
+     display: inline;
+}
+
+.btn {
+     background-color: rgba(255, 255, 255, 0.395);
+     border: none;
+     border-radius: 6px;
+     font-weight: bold;
+     cursor: pointer;
+     color: #053c47;
+     margin-left: 10px;
+     padding: 3px;
+}
+
+.oneCard{
+     display: flex;
+     align-items: center;
+     gap: 30px;
+     justify-content: space-around;
+     min-height: 473px;
+}
+
+.p{
+     font-size: 25px;
+     font-weight: bold;
+     color: #ffffff;
+     background-color: #053c47;
+     min-width: 100px;
+     padding: 10px;
+     border-radius: 10px;
+     text-align: center;
+
+}
+.img{
+     width: 450px;
+     height: 350px;
+}
+
+.info{
+     width: 500px;
+     background-color: #053c47;
+     color: white;
+     padding: 15px;
+     border-radius: 15px;
+}

@@ -1,0 +1,21 @@
+.header{
+     background-color: #053c47     ;
+     color: white;
+     height: 90px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 30px;
+}
+h1{
+     margin: 0;
+     padding-left: 30px;
+     font-size: 30px;
+}
+
+.link{
+     padding-right: 100px;
+     font-size: 20px;
+     text-decoration: none;
+     color: white;
+}
